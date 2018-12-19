@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, inintial-scale=1.0">
+<title>Questioner->Admin</title>
+<link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="upper_div">
+<h1>ADMIN</h1>
+
+<div class="navbar">
+
+<div class="menu-div">
+<button class="menu-btn">Menu   
+</button>
+
+<div class="menu-items">
+ <a href="profile.html">Profile</a>
+ <a href="question.html">Question</a>
+ <a href="contribution.html">Contribution</a>
+ <a href="signin.html">Sign Out</a>
+</div>
+
+</div> 
+
+</div>
+
+</div>
+
+<div class="lower_div">
+<form>
+
+
+<div>
+
+<fieldset>
+<legend>Create a meetup</legend>
+
+<label>Add the meetup topic</label><br>
+<input class="npt" type="text" placeholder="Enter a question"><br><br>
+
+<label>Tag users (<i>use comma to separate user names</i>)</label><br>
+<input class="npt" type="text" placeholder="Enter a question"><br><br>
+
+
+<button class="btn" type="button">Create</button><br>
+
+</fieldset>
+</div>
+
+<div>
+
+<br>
+
+<fieldset id=delete-fieldset>
+<legend>Delete meetup</legend>
+
+<label>Choose form the list what meetup you want to delete.</label><br>
+<select class="npt" name="meetup" placeholder="Choose a meetup to delete">
+ <option value="meetup"><i>Remove a meetup</i></option>
+ <option value="meetup"><i>MeetUp1_Question1</i></option>
+ <option value="meetup"><i>MeetUp2_Question2</i></option>
+ <option value="meetup"><i>MeetUp3_Question3</i></option>
+</select><br><br>
+
+<button class="btn" id="delete_btn" type="button">Delete</button>
+
+</fieldset>
+</div>
+
+
+</form>
+</div>
+
+</body>
+</html>
