@@ -43,7 +43,7 @@ form {
 .outmost-container{
                    box-sizing:border-box;
                    background-color:#aaa;
-                   margin:5px 40% 5px 40%;
+                   margin:5px auto;
                   }
 
 .imgcontainer {
