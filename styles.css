@@ -1,22 +1,26 @@
+
+body{
+     background-color:#aaa;
+    }
+
 .upper_div{
          background-color:#775500;
          border-top-left-radius:20px 10px;
          border-top-right-radius:20px 10px;
-         padding:4px;
+         padding:2px;
         }
 
 .lower_div{
            background-color:#efefef;
            border-bottom-left-radius:20px 10px;
            border-bottom-right-radius:20px 10px;
-           padding:20px;
+           padding:0 20px;
            box-sizing: border-box;
           }
 
 .npt{
      border: 1px solid #775500;
      border-radius:5px;
-     height:30px;
      width:auto;
      padding:5px;
     }
@@ -27,6 +31,35 @@
      padding:10px;
      text-align:"center";
     }
+.date{
+      color:#775500;
+     }
+
+form {
+      border:none;
+      padding:5px;
+     }
+
+.outmost-container{
+                   box-sizing:border-box;
+                   background-color:#aaa;
+                   margin:5px 40% 5px 40%;
+                  }
+
+.imgcontainer {
+               text-align: center;
+               margin: 24px 0 12px 0;
+              }
+
+img.avatar {
+            width: 40%;
+            border-radius: 50%;
+           }
+
+h1.icon{
+        font-family:Forte;
+        color:#775500;
+       }
 
 input[type=text]:focus, 
 input[type=password]:focus{
@@ -38,20 +71,29 @@ fieldset{
          border: 1px solid #775500;
          padding:10px;
         }
+hr{
+   border:0.5px solid #775500;
+  }
 
 #delete_btn, #down_vote{
                         background-color:#a00;
                        }
-#textarea1, #textarea2{
-          width:50%; 
-          height:50%;
-         }
+#textarea1{
+           width:50%; 
+           height:50%;
+          }
 
 #dropdown{
           width:20%
          }
 
+#cont-comment{
+              width:60%;
+             }
 
+#votebtn{
+         margin:0 10% 0 2%;
+        }
 
 
 .navbar {
@@ -62,19 +104,23 @@ fieldset{
 .menu-div {
            float:left;
            overflow:hidden;
-           padding: 2px auto 2px 87.5%;
+           padding: 2px 20px 2px 87.5%;
           }
 
 .menu-div .menu-btn {
                      font-size: 16px;  
                      border:1px solid #efefef;
-                     padding: 14px 16px;
+                     padding:2px;
                      margin: 0;
                      background-color:#775500;
                      border-radius:5px;
                      position:right;
                      font-family:"inherited";
                     }
+
+.menu-btn {
+           padding: 14px 16px;
+          }
 
 .menu-items {
              display:none;
@@ -99,8 +145,8 @@ fieldset{
                     }
 
 .menu-btn:hover {
-                     background-color:#ddd;
-                    }
+                 background-color:#ddd;
+                }
 
 .menu-div:hover .menu-items {
                              display:block;
